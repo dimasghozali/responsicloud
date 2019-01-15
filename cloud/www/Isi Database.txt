@@ -1,0 +1,17 @@
+CREATE TABLE `tbl_lokasi` (
+  `id_lokasi` int(5) NOT NULL,
+  `namalokasi` varchar(100) NOT NULL,
+  `alamat` text NOT NULL,
+  `lat` varchar(25) NOT NULL,
+  `lng` varchar(25) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `tbl_lokasi`
+--
+ALTER TABLE `tbl_lokasi`
+  ADD PRIMARY KEY (`id_lokasi`);
